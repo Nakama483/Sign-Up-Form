@@ -2,12 +2,14 @@ body {
     display: flex;
     justify-content: center;
     height: 100vh;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
 }
 
 .header {
     box-sizing: border-box;
-    max-width: 780px;
+    max-width: 850px;
     background-color: rgb(250, 245, 245);
     height: 38%;
     padding: 40px;
@@ -19,6 +21,7 @@ body {
 
 .middle {
     box-sizing: border-box;
+    background-color: white;
     height: 24%;
     padding: 40px;
     padding-top: 10px;
@@ -76,7 +79,8 @@ form {
 
 form div {
     margin-right: 80px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    max-height: 50px;
 }
 
 input {
@@ -124,3 +128,10 @@ legend {
     font-weight: lighter;
     bottom:5px;
 }
+
+.mismatch {
+    font-size: .7rem;
+    color: red;
+    margin-top: 2px
+}
+

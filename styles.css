@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    height: 100vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.header {
+    box-sizing: border-box;
+    max-width: 780px;
+    background-color: rgb(241, 241, 241);
+    height: 38%;
+    padding: 40px;
+    padding-top: 200px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+.middle {
+    box-sizing: border-box;
+    height: 24%;
+    padding: 40px;
+    padding-top: 10px;
+}
+
+.footer {
+    box-sizing: border-box;
+    height: 38%;
+    background-color: rgb(241, 241, 241);
+    padding: 40px;
+    font-size: 17px;
+}
+
+img {
+    height: 100vh;
+    width: 600px;
+}
+
+button {
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    background-color: #596D48;
+    height: 50px;
+    width: 240px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #596D48;;
+}
+
+input,
+label {
+    display: block;
+    width: 250px;
+    height: 22px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 0;
+    overflow: hidden;
+    max-width: 700px;
+}
+
+form div {
+    margin-right: 80px;
+    margin-bottom: 20px
+}
+
+input {
+    background-color: rgb(251, 247, 252);
+    border-color: #E5E7EB;
+}
+
+input:focus {
+    outline: none;
+    border-color: rgba(110, 110, 235, 0.973);
+}
+
+input:invalid {
+    border-color: red;
+}
+
+legend {
+    font-size: 1rem;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}

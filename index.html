@@ -15,33 +15,34 @@
             to get started.<br><br>You <i>know</i> you want to.
         </div>
         <div class="middle">
-            <p>Let's do this!</p>
-            <form action="" method="post" class="signup-form">
-                <div class="first-name">
-                    <label for="first-name">FIRST NAME:</label>
-                    <input type="text" id="first-Name" name="firstName">
-                </div>
-                <div class="last-name">
-                    <label for="last-name">LAST NAME:</label>
-                    <input type="text" id="last-name" name="lastName">
-                </div>
-                <div class="email">
-                    <label for="email">EMAIL</label>
-                    <input type="email" id="email" name="email">
-                </div>
-                <div class="phone">
-                    <label for="phone">PHONE NUMBER</label>
-                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
-                </div>
-                <div class="pwd">
-                    <label for="pwd">PASSWORD</label>
-                    <input type="password" id="pwd" name="pwd">
-                </div>
-                <div class="confirm-pwd">
-                    <label for="confirm-pwd">CONFIRM PASSWORD</label>
-                    <input type="password" id="confirm-pwd" name="confirmPwd">
-                </div>
-            </form>
+            <legend> Contact Information</legend>
+                <form action="" method="post" class="signup-form">
+                    <div class="first-name">
+                        <label for="first-name">FIRST NAME:</label>
+                        <input type="text" id="first-Name" name="firstName">
+                    </div>
+                    <div class="last-name">
+                        <label for="last-name">LAST NAME:</label>
+                        <input type="text" id="last-name" name="lastName">
+                    </div>
+                    <div class="email">
+                        <label for="email">EMAIL *</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="phone">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                    </div>
+                    <div class="pwd">
+                        <label for="pwd">PASSWORD *</label>
+                        <input type="password" id="pwd" name="pwd" minlength="5" maxlength="12" title="* Passwords do not match" required>
+                    </div>
+                    <div class="confirm-pwd">
+                        <label for="confirm-pwd">CONFIRM PASSWORD *</label>
+                        <input type="password" id="confirm-pwd" name="confirmPwd" minlength="5" maxlength="12" required>
+                    </div>
+                </form>
+
         </div>
         <div class="footer">
             <button type="submit">Create Account</button>
